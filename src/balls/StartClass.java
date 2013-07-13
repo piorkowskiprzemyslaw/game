@@ -20,11 +20,9 @@ public final class StartClass
 	public static void main(String[] args)
 	{
 		final Model model = new Model();
-		final LinkedBlockingQueue<AppEvent> blockingQueue 
-				= new LinkedBlockingQueue<AppEvent>();
+		final LinkedBlockingQueue<AppEvent> blockingQueue = new LinkedBlockingQueue<AppEvent>();
 		final View view = new View(blockingQueue);
-		final Controller controller = new Controller(model, view,
-				blockingQueue);
+		final Controller controller = new Controller(model, view, blockingQueue);
 		controller.start();
 	}
 }
