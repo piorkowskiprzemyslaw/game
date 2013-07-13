@@ -6,7 +6,7 @@ package balls.model;
 import balls.model.mockups.BallColor;
 
 /**
- * Klasa reprezentujaca kulke.
+ * Klasa reprezentujaca kulke i wszystkie jej właściwości.
  * 
  * @author Przemysław Piórkowski
  * 
